@@ -1,0 +1,1 @@
+# Find-Mean-and-Standart-Deviation-T-bitak-2022
