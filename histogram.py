@@ -57,10 +57,6 @@ def HistogramPlot(array , bins = 10):
     
     plt.show()
 
-def disPlot(array):
-    
-    sns.displot(array, x="std")
-    
 def Main(Filename , sheetName):
     
     Input_matrix = readExcel(Filename , sheetName)
@@ -79,6 +75,6 @@ def Main(Filename , sheetName):
         print("\nhist:\n"+str(hist))
         print("\nbin_edges:\n"+str(bin_edges))
         HistogramPlot(Input_matrix , binValue)
-        #disPlot(Input_matrix)
+        
     
 Main(Filename , sheetName)
