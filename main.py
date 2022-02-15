@@ -111,17 +111,19 @@ def Main(List_TextFiles):
         print("Row Number: "+str(rowNum)+"\nColumn Number: "+str(colNum))
         
     mean_matrix , std_matrix = MeanAndStdMatrix(List_Matrix,rowNum,colNum)
-    writeExcel(mean_matrix,std_matrix,rowNum,colNum),
+    writeExcel(mean_matrix,std_matrix,rowNum,colNum)
     
     print("\nProgram finished")
 
       
 print("Program started\n")
 
-List_TextFiles = ["1sn_1.xlsx","1sn_2.xlsx","1sn_3.xlsx",
-                 "1sn_4.xlsx","1sn_5.xlsx","1sn_6.xlsx",
-                 "1sn_7.xlsx","1sn_8.xlsx","1sn_9.xlsx",
-                 "1sn_10.xlsx"]
+#List_TextFiles = ["1sn_1.xlsx","1sn_2.xlsx","1sn_3.xlsx",
+#                 "1sn_4.xlsx","1sn_5.xlsx","1sn_6.xlsx",
+#                 "1sn_7.xlsx","1sn_8.xlsx","1sn_9.xlsx",
+#                 "1sn_10.xlsx"]
+
+List_TextFiles = ["1sn_1_az.xlsx" , "1sn_1_az.xlsx"]
 
 
 start_time = time.time()
